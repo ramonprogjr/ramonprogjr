@@ -31,7 +31,7 @@
 
 | Linguagem | Onde eu uso |
 |---|---|
-| **Python** | Backends com FastAPI, análise de dados com pandas/NumPy, machine learning com scikit-learn, backtests e agentes de decisão e agentes de IA com Claude Agent SDK (Desk de Análise de Mercado 🔒, Nexarion 🔒) |
+| **Python** | Backends com FastAPI, análise de dados com pandas/NumPy, machine learning com scikit-learn, backtests e agentes de decisão e agentes de IA com Claude Agent SDK ([Desk de Análise de Mercado](https://github.com/ramonprogjr/quotex-desk), Nexarion 🔒) |
 | **TypeScript** | Web apps e CRMs com Next.js + Supabase ([ControlZap](https://github.com/ramonprogjr/controzap), [Escritório Virtual](https://github.com/ramonprogjr/escritorio-virtual)) |
 | **C#** | Apps Windows com .NET 8: captura de tela, encoder H.264, injeção de input ([NexScreen](https://github.com/ramonprogjr/Nex-Screen)) |
 | **Dart** | Apps Android com Flutter, mapas e OCR no aparelho ([Rota Food](https://github.com/ramonprogjr/Rota-Fast)) |
@@ -68,7 +68,7 @@ Driver IddCx, captura por Desktop Duplication, H.264 por hardware e toque como m
 </td>
 <td width="50%" valign="top">
 
-### 📈 Desk de Análise de Mercado <sub>🔒 privado</sub>
+### 📈 [Desk de Análise de Mercado](https://github.com/ramonprogjr/quotex-desk)
 **Pipeline de agentes** (Spotter → Prior → Edge → Kelly → Closer → Disjuntor) que só aprova sinais com vantagem provada por Wilson, mais IA de confluência e um **laboratório evolutivo** com algoritmo genético e backtest walk-forward.
 
 `Python` `FastAPI` `pandas` `scikit-learn` `React`
