@@ -1,16 +1,31 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=180&section=header&text=Ramon%20Pereira&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Software%20%C2%B7%20Automa%C3%A7%C3%A3o%20%C2%B7%20IA&descAlignY=58&descSize=18" alt="Ramon Pereira" width="100%"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Hello+World%2C+I'm+Ramon%2C+be+very+welcome!;Software+%C2%B7+Automa%C3%A7%C3%A3o+%C2%B7+IA;Do+driver+no+Windows+ao+app+no+celular" alt="Hello World, I'm Ramon, be very welcome!"/>
 
 **Desenvolvo produtos de ponta a ponta: do driver no Windows ao app no celular, do CRM no WhatsApp à automação com IA.**
 
+<br/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=ramonprogjr&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=github_dark&custom_title=Ramon's%20GitHub%20Stats" alt="Ramon's GitHub Stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramonprogjr&layout=compact&langs_count=8&hide_border=true&theme=github_dark" alt="Most Used Languages"/>
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=ts,cs,dart,python,kotlin,cpp,postgres&perline=7" alt="TypeScript, C#, Dart, Python, Kotlin, C++, PostgreSQL" width="560"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+
 </div>
 
-## 🧠 Linguagens
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,cs,dart,python,kotlin,cpp&perline=6" alt="TypeScript, C#, Dart, Python, Kotlin, C++"/>
-</p>
+## 🧠 Onde eu uso cada linguagem
 
 | Linguagem | Onde eu uso |
 |---|---|
@@ -25,10 +40,16 @@
 ## 🛠️ Ferramentas
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,supabase,postgres,flutter,dotnet,androidstudio,nodejs,git,github,githubactions,vercel,vscode&perline=7" alt="Ferramentas"/>
+  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,supabase,flutter,dotnet,androidstudio,nodejs,git,github,githubactions,vercel,vscode&perline=13" alt="Ferramentas"/>
 </p>
 
-Também trabalho com **n8n**, **APIs REST e webhooks**, **WhatsApp (UAZAPI / Meta)** e **LLMs** (Claude, Mistral) em agentes e automações.
+<p align="center">
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
+  <img src="https://img.shields.io/badge/WhatsApp%20API-25D366?style=flat-square&logo=whatsapp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Mistral%20AI-FA520F?style=flat-square&logo=mistralai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST%20%26%20Webhooks-0F172A?style=flat-square&logo=postman&logoColor=white"/>
+</p>
 
 ## 🚀 Projetos em destaque
 
@@ -40,7 +61,7 @@ Também trabalho com **n8n**, **APIs REST e webhooks**, **WhatsApp (UAZAPI / Met
 Transforma um tablet Android num **monitor estendido de verdade** do Windows, por USB ou Wi-Fi.
 Driver IddCx, captura por Desktop Duplication, H.264 por hardware e toque como mouse.
 
-`C#` `C++` `Kotlin` `.NET 8` `Windows drivers`
+`C#` `C++` `Kotlin` `.NET 8`
 
 </td>
 <td width="50%" valign="top">
@@ -58,7 +79,7 @@ Driver IddCx, captura por Desktop Duplication, H.264 por hardware e toque como m
 ### 🛵 [Rota Food](https://github.com/ramonprogjr/Rota-Fast)
 Planejador de rotas para entregadores: OCR de comandas no celular, mapa, sequência sugerida e relatório do turno. Gratuito e sem anúncios.
 
-`Dart` `Flutter` `OpenStreetMap` `Android`
+`Dart` `Flutter` `OpenStreetMap`
 
 </td>
 <td width="50%" valign="top">
@@ -71,16 +92,3 @@ Plataforma com CRM, agentes de IA, parceiros e automações de WhatsApp.
 </td>
 </tr>
 </table>
-
-## 📊 Estatísticas
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramonprogjr&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Linguagens mais usadas"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ramonprogjr&show_icons=true&hide_border=true&count_private=true&theme=tokyonight" alt="Estatísticas do GitHub"/>
-</p>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=100&section=footer" width="100%"/>
-
-</div>
