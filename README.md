@@ -31,7 +31,7 @@
 
 | Linguagem | Onde eu uso |
 |---|---|
-| **Python** | Backends com FastAPI, análise de dados com pandas/NumPy, machine learning com scikit-learn, backtests e agentes de decisão (Desk de Análise de Mercado 🔒, [Dashboard Livance](https://github.com/ramonprogjr/dashboard-livanc)) |
+| **Python** | Backends com FastAPI, análise de dados com pandas/NumPy, machine learning com scikit-learn, backtests e agentes de decisão (Desk de Análise de Mercado 🔒) |
 | **TypeScript** | Web apps e CRMs com Next.js + Supabase ([ControlZap](https://github.com/ramonprogjr/controzap), [Escritório Virtual](https://github.com/ramonprogjr/escritorio-virtual)) |
 | **C#** | Apps Windows com .NET 8: captura de tela, encoder H.264, injeção de input ([NexScreen](https://github.com/ramonprogjr/Nex-Screen)) |
 | **Dart** | Apps Android com Flutter, mapas e OCR no aparelho ([Rota Food](https://github.com/ramonprogjr/Rota-Fast)) |
@@ -102,14 +102,7 @@ Planejador de rotas para entregadores: OCR de comandas no celular, mapa, sequên
 `Dart` `Flutter` `OpenStreetMap`
 
 </td>
-<td width="50%" valign="top">
-
-### 📊 [Dashboard Livance](https://github.com/ramonprogjr/dashboard-livanc)
-Dashboard interativo de **retenção de clientes**, com indicadores e gráficos para acompanhar a evolução da base.
-
-`Python` `Streamlit` `pandas` `Plotly`
-
-</td>
+<td width="50%" valign="top"></td>
 </tr>
 </table>
 
