@@ -13,14 +13,14 @@
 
 <br/><br/>
 
-<img src="https://skillicons.dev/icons?i=ts,cs,dart,python,kotlin,cpp,postgres&perline=7" alt="TypeScript, C#, Dart, Python, Kotlin, C++, PostgreSQL" width="560"/>
+<img src="https://skillicons.dev/icons?i=python,ts,cs,dart,kotlin,cpp,postgres&perline=7" alt="Python, TypeScript, C#, Dart, Kotlin, C++, PostgreSQL" width="560"/>
 
 <br/><br/>
 
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
 <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
@@ -31,10 +31,10 @@
 
 | Linguagem | Onde eu uso |
 |---|---|
+| **Python** | Backends com FastAPI, análise de dados com pandas/NumPy, machine learning com scikit-learn, backtests e agentes de decisão (Desk de Análise de Mercado 🔒, [Dashboard Livance](https://github.com/ramonprogjr/dashboard-livanc)) |
 | **TypeScript** | Web apps e CRMs com Next.js + Supabase ([ControlZap](https://github.com/ramonprogjr/controzap), [Escritório Virtual](https://github.com/ramonprogjr/escritorio-virtual)) |
 | **C#** | Apps Windows com .NET 8: captura de tela, encoder H.264, injeção de input ([NexScreen](https://github.com/ramonprogjr/Nex-Screen)) |
 | **Dart** | Apps Android com Flutter, mapas e OCR no aparelho ([Rota Food](https://github.com/ramonprogjr/Rota-Fast)) |
-| **Python** | Dashboards, análise de dados e automações ([Dashboard Livance](https://github.com/ramonprogjr/dashboard-livanc)) |
 | **Kotlin** | Android nativo: decodificação de vídeo e toque ([NexScreen](https://github.com/ramonprogjr/Nex-Screen/tree/main/android)) |
 | **C++** | Driver de monitor virtual para Windows (IddCx/UMDF) ([NexScreen](https://github.com/ramonprogjr/Nex-Screen/tree/main/driver)) |
 | **SQL** | PostgreSQL, Supabase, RLS e funções no banco |
@@ -42,7 +42,7 @@
 ## 🛠️ Ferramentas
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,supabase,flutter,dotnet,androidstudio,nodejs,git,github,githubactions,vercel,vscode&perline=13" alt="Ferramentas"/>
+  <img src="https://skillicons.dev/icons?i=fastapi,sklearn,nextjs,react,tailwind,supabase,flutter,dotnet,androidstudio,nodejs,git,github,githubactions,vercel,vscode&perline=13" alt="Ferramentas"/>
 </p>
 
 <p align="center">
@@ -90,6 +90,36 @@ Planejador de rotas para entregadores: OCR de comandas no celular, mapa, sequên
 Plataforma com CRM, agentes de IA, parceiros e automações de WhatsApp.
 
 `TypeScript` `Next.js` `Supabase` `Claude API`
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 📈 Desk de Análise de Mercado <sub>🔒 privado</sub>
+Painel de análise estatística de gráficos de 1 e 5 minutos, movido por um **pipeline de agentes** que roda no fechamento de cada candle. **Por padrão tudo é vetado**: um sinal só passa quando os dados provam vantagem.
+
+**🤖 Pipeline de agentes**
+
+| Agente | Papel |
+|---|---|
+| 🔭 **Spotter** | Detecta setups: RSI + Bollinger, engolfo, rompimento, pullback na EMA, rejeição de suporte/resistência, pin bar |
+| 📚 **Prior** | Taxa de acerto histórica por setup × ativo × expiração × sessão do dia |
+| ⚖️ **Edge** | Só aprova se o limite inferior de **Wilson** passar do empate na descoberta (70%) **e** na confirmação (30%) |
+| 💰 **Kelly** | Dimensiona a entrada com **¼ de Kelly** sobre o acerto conservador, com teto de 2% da banca |
+| 🛑 **Closer** | Gestão de risco: stop diário, limite de entradas, pausa após perdas seguidas, anti-martingale |
+| ⚡ **Disjuntor** | Suspende sozinho uma estratégia que piora **ao vivo**, mesmo aprovada pelo histórico |
+| 🔁 **Forward** | Resolve todo sinal, aprovado ou vetado, pelo próprio feed: teste ao vivo contínuo |
+
+**🧠 Especialistas e IA:** cinco especialistas (suporte/resistência, tendência, exaustão, price action e contexto) alimentam a **Confluência**, um modelo de machine learning treinado só no passado em walk-forward, com limiar de confiança vindo da validação.
+
+**🧬 Laboratório Evolutivo:** um **algoritmo genético** cria, testa e elimina estratégias sozinho. Os dados são divididos em treino (60%), validação (20%) e um **cofre** (20%) que nunca é visto durante a evolução. Os finalistas passam pelo cofre uma única vez, com correção de **Bonferroni**.
+
+**🔬 Rigor estatístico:** backtest com atraso de execução simulado, walk-forward fora da amostra, comparação com sinal aleatório e intervalos de Wilson em toda decisão.
+
+**🖥️ Painel:** gráfico ao vivo em M1 e M5 com pré-sinal sonoro, zonas de S/R, diário de operações com calibração, alertas no Telegram e coleta de dados por WebSocket com Playwright.
+
+`Python` `FastAPI` `pandas` `NumPy` `scikit-learn` `Playwright` `TypeScript` `React` `Vite` `Lightweight Charts`
 
 </td>
 </tr>
