@@ -9,6 +9,8 @@
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=ramonprogjr&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=github_dark&custom_title=Ramon's%20GitHub%20Stats" alt="Ramon's GitHub Stats"/>
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramonprogjr&layout=compact&langs_count=8&hide_border=true&theme=github_dark" alt="Most Used Languages"/>
 
+<img src="https://streak-stats.demolab.com?user=ramonprogjr&theme=github-dark-blue&hide_border=true&locale=pt_BR" alt="Sequência de contribuições" width="560"/>
+
 <br/><br/>
 
 <img src="https://skillicons.dev/icons?i=ts,cs,dart,python,kotlin,cpp,postgres&perline=7" alt="TypeScript, C#, Dart, Python, Kotlin, C++, PostgreSQL" width="560"/>
@@ -92,3 +94,17 @@ Plataforma com CRM, agentes de IA, parceiros e automações de WhatsApp.
 </td>
 </tr>
 </table>
+
+## 📈 Atividade
+
+<p align="center">
+  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Contribuições ao longo do tempo" width="100%"/>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ramonprogjr/ramonprogjr/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ramonprogjr/ramonprogjr/output/github-snake.svg"/>
+    <img alt="Cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/ramonprogjr/ramonprogjr/output/github-snake-dark.svg"/>
+  </picture>
+</p>
