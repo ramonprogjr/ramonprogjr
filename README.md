@@ -31,7 +31,7 @@
 
 | Linguagem | Onde eu uso |
 |---|---|
-| **Python** | Backends com FastAPI, análise de dados com pandas/NumPy, machine learning com scikit-learn, backtests e agentes de decisão (Desk de Análise de Mercado 🔒) |
+| **Python** | Backends com FastAPI, análise de dados com pandas/NumPy, machine learning com scikit-learn, backtests e agentes de decisão e agentes de IA com Claude Agent SDK (Desk de Análise de Mercado 🔒, Nexarion 🔒) |
 | **TypeScript** | Web apps e CRMs com Next.js + Supabase ([ControlZap](https://github.com/ramonprogjr/controzap), [Escritório Virtual](https://github.com/ramonprogjr/escritorio-virtual)) |
 | **C#** | Apps Windows com .NET 8: captura de tela, encoder H.264, injeção de input ([NexScreen](https://github.com/ramonprogjr/Nex-Screen)) |
 | **Dart** | Apps Android com Flutter, mapas e OCR no aparelho ([Rota Food](https://github.com/ramonprogjr/Rota-Fast)) |
@@ -102,7 +102,14 @@ Planejador de rotas para entregadores: OCR de comandas no celular, mapa, sequên
 `Dart` `Flutter` `OpenStreetMap`
 
 </td>
-<td width="50%" valign="top"></td>
+<td width="50%" valign="top">
+
+### 🧠 Nexarion <sub>🔒 privado</sub>
+**Assistente pessoal com IA** dentro do Obsidian, inspirado no Jarvis: agente com **Claude Agent SDK** que lê as notas do vault, acha pendências e conversa por voz, com transcrição local por Whisper.
+
+`Python` `Claude Agent SDK` `FastAPI` `faster-whisper` `TypeScript`
+
+</td>
 </tr>
 </table>
 
