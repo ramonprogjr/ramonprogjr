@@ -6,8 +6,8 @@
 
 <br/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ramonprogjr&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=github_dark&custom_title=Ramon's%20GitHub%20Stats" alt="Ramon's GitHub Stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramonprogjr&layout=compact&langs_count=8&hide_border=true&theme=github_dark&size_weight=0.3&count_weight=0.7&hide=css,html,javascript,powershell,batchfile,shell,inno%20setup" alt="Most Used Languages"/>
+<img height="170" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Ramon's GitHub Stats"/>
+<img height="170" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most Used Languages"/>
 
 <img src="https://streak-stats.demolab.com?user=ramonprogjr&theme=github-dark-blue&hide_border=true&locale=pt_BR" alt="Sequência de contribuições" width="560"/>
 
