@@ -60,7 +60,7 @@
 <td valign="top">
 
 ### 🤖 NEXUS AI Router <sub>🔒 privado</sub>
-**Um time de agentes de IA dentro do VS Code.** A cada pergunta, um roteador decide quem responde e com qual modelo: responde direto, chama um especialista de domínio ou delega ao agente certo (Haiku, Sonnet, Opus ou Fable) com o esforço certo. O painel mostra a equipe em **personagens 3D** animados pelo que cada agente está fazendo, mais monitor, histórico e métricas do roteador.
+**Um time de agentes de IA dentro do VS Code.** A cada pergunta, um roteador decide quem responde e com qual modelo: responde direto ou delega ao agente certo (Haiku, Sonnet, Opus ou Fable) com o esforço certo. O painel mostra a equipe em **personagens 3D** animados pelo que cada agente está fazendo, mais monitor, histórico e métricas do roteador.
 
 `TypeScript` `VS Code API` `Claude Code` `three.js` `Node.js`
 
