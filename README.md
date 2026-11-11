@@ -32,9 +32,9 @@
 | Linguagem | Onde eu uso |
 |---|---|
 | **Python** | Backends com FastAPI, análise de dados com pandas/NumPy, machine learning com scikit-learn, backtests e agentes de decisão e agentes de IA com Claude Agent SDK ([Desk de Análise de Mercado](https://github.com/ramonprogjr/quotex-desk), Nexarion 🔒) |
-| **TypeScript** | Web apps e CRMs com Next.js + Supabase ([ControlZap](https://github.com/ramonprogjr/controzap), [Escritório Virtual](https://github.com/ramonprogjr/escritorio-virtual)) |
+| **TypeScript** | Web apps e CRMs com Next.js + Supabase ([ControlZap](https://github.com/ramonprogjr/controzap), [Escritório Virtual](https://github.com/ramonprogjr/escritorio-virtual)) e extensão do VS Code com agentes de IA e painel 3D (NEXUS AI Router 🔒) |
 | **C#** | Apps Windows com .NET 8: captura de tela, encoder H.264, injeção de input ([NexScreen](https://github.com/ramonprogjr/Nex-Screen)) |
-| **Dart** | Apps Android com Flutter, mapas e OCR no aparelho ([Rota Food](https://github.com/ramonprogjr/Rota-Fast)) |
+| **Dart** | Apps Android com Flutter, mapas e OCR no aparelho ([Rota Max](https://github.com/ramonprogjr/Rota-Fast)) |
 | **Kotlin** | Android nativo: decodificação de vídeo e toque ([NexScreen](https://github.com/ramonprogjr/Nex-Screen/tree/main/android)) |
 | **C++** | Driver de monitor virtual para Windows (IddCx/UMDF) ([NexScreen](https://github.com/ramonprogjr/Nex-Screen/tree/main/driver)) |
 | **SQL** | PostgreSQL, Supabase, RLS e funções no banco |
@@ -54,6 +54,22 @@
 </p>
 
 ## 🚀 Projetos em destaque
+
+<table>
+<tr>
+<td valign="top">
+
+### 🤖 NEXUS AI Router <sub>🔒 privado</sub>
+**Um time de agentes de IA dentro do VS Code.** A cada pergunta, um roteador decide quem responde e com qual modelo: responde direto, chama um especialista de domínio ou delega ao agente certo (Haiku, Sonnet, Opus ou Fable) com o esforço certo. O painel mostra a equipe em **personagens 3D** animados pelo que cada agente está fazendo, mais monitor, histórico e métricas do roteador.
+
+`TypeScript` `VS Code API` `Claude Code` `three.js` `Node.js`
+
+<p align="center"><img src="assets/nexus-painel.png" alt="Painel do NEXUS AI Router: equipe de agentes em personagens 3D" width="560"/></p>
+<p align="center"><sub>Personagens: KayKit Adventurers, de Kay Lousberg (CC0)</sub></p>
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -96,7 +112,7 @@ Plataforma com CRM, agentes de IA, parceiros e automações de WhatsApp.
 <tr>
 <td width="50%" valign="top">
 
-### 🛵 [Rota Food](https://github.com/ramonprogjr/Rota-Fast)
+### 🛵 [Rota Max](https://github.com/ramonprogjr/Rota-Fast)
 Planejador de rotas para entregadores: OCR de comandas no celular, mapa, sequência sugerida e relatório do turno. Gratuito e sem anúncios.
 
 `Dart` `Flutter` `OpenStreetMap`
